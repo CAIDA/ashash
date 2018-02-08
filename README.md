@@ -3,9 +3,16 @@
 ## Requirements
 You will need to install the following python libraries to use this code:
 
-- py-radix: https://pypi.python.org/pypi/py-radix
 - pybgpstream (from source): https://bgpstream.caida.org/docs/install/pybgpstream
-- apsw: https://pypi.python.org/pypi/apsw
+
+```
+# Create a virtualenv to install the needed libraries.
+virtualenv --python=...path-to-python2 python2
+source python2/bin/active
+# py-radix: https://pypi.python.org/pypi/py-radix
+# apsw: https://pypi.python.org/pypi/apsw
+pip install -r requirements.txt
+```
 
 ## Example
 As an example, we look at AS hegemony changes during the Comcast outage caused by Level(3) BGP route leak on Nov. 11th, 2017.

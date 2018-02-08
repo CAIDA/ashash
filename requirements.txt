@@ -1,0 +1,8 @@
+py-radix
+apsw
+scipy
+more_itertools
+mmh3
+simhash
+networkx
+pybgpstream
